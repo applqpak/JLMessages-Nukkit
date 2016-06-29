@@ -164,6 +164,36 @@ public class Main extends PluginBase implements Listener
 
   }
 
+  @EventHandler
+
+  public void onPlayerJoin(PlayerJoinEvent event)
+  {
+
+    Player player = event.getPlayer();
+
+    String message = String.valueOf(getConfig().get("join_message"));
+
+    String join_message = message.replace("{player}", player.getName());
+
+    event.setJoinMessage(join_message);
+
+  }
+
+  @EventHandler
+
+  public void onPlayerLeave(PlayerQuitEvent event)
+  {
+
+    Player player = event.getPlayer();
+
+    String message = String.valueOf(getConfig().get("leave_message"));
+
+    String leave_message = message.replace("{player}", player.getName());
+
+    event.setQuitMessage(leave_message);
+
+  }
+
   @Override
 
   public void onDisable()
