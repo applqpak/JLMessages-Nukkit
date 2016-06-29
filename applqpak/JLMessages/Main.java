@@ -74,7 +74,7 @@ public class Main extends PluginBase implements Listener
         if(args.length == 0)
         {
 
-          sender.sendMessage(TextFormat.RED + "Invalid usage. Usage: " this.USAGE);
+          sender.sendMessage(TextFormat.RED + "Invalid usage. Usage: " + this.USAGE);
 
         }
         else
