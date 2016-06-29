@@ -1,0 +1,14 @@
+name: JLMessages
+version: 1.0.0
+author: applqpak
+api: ["1.0.0"]
+main: applqpak.JLMessages.Main
+commands:
+  jlmessages:
+    description: Core JLMessages command.
+    usage: /jlmessages <version | set> [join | leave] [message]
+    aliases: ["jlm"]
+    permission: jlmessages.command
+permissions:
+  jlmessages.command:
+    default: op
