@@ -9,5 +9,3 @@ Custom join/leave messages for Nukkit! HUGE thanks to @Gamecrafter and @ImJack f
 
 ###Some screenshots:
 ![alt text](https://raw.githubusercontent.com/applqpak/JLMessages-Nukkit/master/images/IMG_5991.PNG)
-
-![alt text](https://raw.githubusercontent.com/applqpak/JLMessages-Nukkit/master/images/IMG_5992.JPG)
