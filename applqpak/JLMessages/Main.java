@@ -124,6 +124,33 @@ public class Main extends PluginBase implements Listener
               }
 
             }
+            else if(args[1].equalsIgnoreCase("leave"))
+            {
+
+              if(args.length == 2)
+              {
+
+                sender.sendMessage(TextFormat.RED + "Invalid usage. Usage: " + this.USAGE);
+
+              }
+              else
+              {
+
+                args[0] = "";
+
+                args[1] = "";
+
+                String message = this.implode(" ", args);
+
+                getConfig().set("leave_message", message);
+
+                getConfig().save();
+
+                sender.sendMessage(TextFormat.GREEN + "Successfully set the join message!");
+
+              }
+
+            }
 
           }
 
