@@ -146,7 +146,7 @@ public class Main extends PluginBase implements Listener
 
                 getConfig().save();
 
-                sender.sendMessage(TextFormat.GREEN + "Successfully set the join message!");
+                sender.sendMessage(TextFormat.GREEN + "Successfully set the leave message!");
 
               }
 
